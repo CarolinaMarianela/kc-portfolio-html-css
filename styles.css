@@ -5,3 +5,43 @@ body{
   background-color: #162D42
 ;
 }
+.wrapper{
+  width: 100%;
+  height: 100%;
+  background-color:#162D42 ;
+}
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+
+}
+.menu{
+  display: flex;
+
+}
+.menu li{
+  list-style-type: none;
+  margin: 0 10px;
+}
+.menu a{
+  color: aliceblue;
+  text-decoration: none;
+
+}
+.body-home{
+color: aliceblue;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 10vh;
+font-size: 20px;
+
+
+}
+img {
+  border-radius: 50%;
+  height: 40vh;
+
+}
