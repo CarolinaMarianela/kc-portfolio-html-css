@@ -26,8 +26,13 @@
               <img src="./images/photo-cv.jpeg" alt="photo-cv">
             </div>
             <div  class="text-home">
-                <p>¡Hi! My name is Carolina</p>
-                <p> I`m Frontend Developer</p>
+                <p class="saludo">¡Hi! My name is Carolina,</p>
+                <div class="frontend-icon">
+                  <p> I`m Frontend Developer</p>
+                  <img src="images/icons8-female-profile-64.png" alt="Linkedin" width="70px" height="70px"/>
+                </div>
+
+
             </div>
           </div>
     </section>
@@ -46,40 +51,48 @@
             <br /> otro Bootcamp enfocado a frontend.
           </p>
         </div>
-        <div class="barras-skills">
+         <div class="title-skill">
+            <p> MY SKILLS</p>
+          </div>
+        <div class="barras-container">
+          <div class="barras-skills">
             <p class="barra-text">HTML</p>
-              <div id="contenedor">
-                  <div id="barra">
-                    <div class="skill html">60%</div>
-                  </div>
-              </div>
-        </div>
-        <div class="barras-skills">
+            <div id="contenedor">
+                <div id="barra">
+                  <div class="skill html">60%</div>
+                </div>
+            </div>
+          </div>
+          <div class="barras-skills">
             <p class="barra-text">CSS</p>
-              <div id="contenedor">
-                  <div id="barra">
-                    <div class="skill css">50%</div>
-                  </div>
-              </div>
-        </div>
-        <div class="barras-skills">
+            <div id="contenedor">
+                <div id="barra">
+                  <div class="skill css">50%</div>
+                </div>
+            </div>
+          </div>
+          <div class="barras-skills">
             <p class="barra-text">JAVASCRIPT</p>
-              <div id="contenedor">
-                  <div id="barra">
-                    <div class="skill js">30%</div>
-                  </div>
-              </div>
-        </div>
+            <div id="contenedor">
+                <div id="barra">
+                  <div class="skill js">30%</div>
+                </div>
+            </div>
+          </div>
+          </div>
         </div>
       </div>
     </section>
     <section class="contact" id="contacto">
       <div class="form-contact">
         <form action="form-contact.html">
-          <div class="title-form">Contact me</div>
+          <div class="title-form">
+            <p>CONTACT ME</p>
+            <img src="images/icons8-hardworking-64.png" alt="Linkedin" width="70px" height="70px" />
+          </div>
             <div class="custom-select">
               <select class="feedback-input">
-                <option value="0">how did you meet me?</option>
+                <option value="0">How did you meet me?</option>
                 <option value="1">Keepcoding kick-off</option>
                 <option value="2">Colegio</option>
                 <option value="3">Github</option>
@@ -88,13 +101,13 @@
           <input name="name" type="text" class="feedback-input" placeholder="Name" />
           <input name="email" type="text" class="feedback-input" placeholder="Email" />
           <input name="phone" type="text" class="feedback-input" placeholder="Phone" />
-          <input name="githubTag" type="text" class="feedback-input" placeholder="Github" />
-          <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+          <input name="githubTag" type="email" class="feedback-input" pattern=" @([\w-]+\)" placeholder="Github" />
+          <textarea name="text" class="feedback-input" placeholder="Comment" required></textarea>
           <input type="submit" value="SUBMIT"/>
         </form>
       </div>
       <div>
-        <p class="about-text">Follow Me</p>
+        <p class="about-text-follow">Follow Me</p>
       </div>
       <div class="follow">
         <a
@@ -120,63 +133,5 @@
           </a>
       </div>
     </section>
-
-    <!-- <section class="contact" id="contacto">
-      <div class="form-contact">
-        <form action="form-contact.html">
-          <div class="title-form">Contact me</div>
-            <div class="custom-select" style="width:200px;">
-              <select>
-                <option value="0">how did you meet me?</option>
-                <option value="1">Keepcoding kick-off</option>
-                <option value="2">Colegio</option>
-                <option value="3">Github</option>
-              </select>
-            </div>
-          <div class="col-25">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name">
-          </div>
-          <div class="col-25">
-            <label for="surname">Surname</label>
-            <input id="surname" name="surname" type="text">
-          </div>
-          <div class="col-25">
-            <label for="phone">Phone</label>
-            <input id="phone" name="phone" type="text">
-          </div>
-          <div>
-            <textarea required id="subject" name="subject" placeholder="Send a message.." style="height:200px"></textarea>
-          </div>
-          <button type="submit">Send</button>
-        </form>
-      </div>
-      <div>
-        <p class="about-text">Follow Me</p>
-      </div>
-      <div class="follow">
-        <a
-            href="https://github.com/CarolinaMarianela"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/icon-github.svg" alt="Github" width="50px" height="50px" />
-          </a>
-          <a
-            href="ttps://www.linkedin.com/in/carolina-marianela-gallegos-924a54165/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/icons-linkedin.svg" alt="Linkedin" width="50px" height="50px" />
-          </a>
-          <a
-            href="https://twitter.com/carola__carola_"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/icons-twitter.svg" alt="Github" width="50px" height="50px" />
-          </a>
-      </div>
-    </section> -->
   </body>
 </html>
